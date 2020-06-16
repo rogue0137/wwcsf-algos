@@ -1,8 +1,8 @@
 # Recursion
 
 ## Go to:
- * [Resources](resources)
- * [Problem Sets](problem-sets)
+ * [Resources](#resources)
+ * [Problem Sets](#problem-sets)
 
 ___
 

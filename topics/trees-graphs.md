@@ -3,8 +3,8 @@
 This is a more advanced topic that builds especially on [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. That said, if you have experience manipulating and traversing the DOM tree in a web development context, you already have a good foundation to start your study of trees and graphs.
 
 ## Go to:
- * [Resources](resources)
- * [Problem Sets](problem-sets)
+ * [Resources](#resources)
+ * [Problem Sets](#problem-sets)
 
 ___
 
