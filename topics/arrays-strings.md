@@ -1,9 +1,9 @@
 # Arrays and Strings
 
 ## Go to:
- * [Arrays Resources](arrays-resources)
- * [Strings Resources](strings-resources)
- * [Problem Sets](problem-sets)
+ * [Arrays Resources](#arrays-resources)
+ * [Strings Resources](#strings-resources)
+ * [Problem Sets](#problem-sets)
 
 ---
 
