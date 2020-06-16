@@ -1,6 +1,6 @@
 # Trees and Graphs
 
-This is a more advanced topic that builds especially on [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. That said, if you have experience manipulating and traversing the DOM tree in a web development context, you already have a good foundation to start your study of trees and graphs.
+This is a more advanced topic that builds especially on [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. 
 
 ## Go to:
  * [Resources](#resources)
@@ -24,7 +24,7 @@ ___
 ### 3. Special topics
 * Dijkstra's algorithm to find the Single-Source Shortest Path
     * [Chapter 7](https://livebook.manning.com/book/grokking-algorithms/chapter-7/1) from _Grokking Algorithms_ by  Aditya Y. Bhargava
-    * [Single-Source SHortest Paths](https://visualgo.net/en/sssp?slide=1) explorations from visualgo.net
+    * [Single-Source Shortest Paths](https://visualgo.net/en/sssp?slide=1) explorations from visualgo.net
 
 * Spanning trees and forests
     * [Wikipedia : Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
