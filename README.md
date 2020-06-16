@@ -2,7 +2,7 @@
 Algorithms and whiteboarding interview prep for the WWCSF community
 
 ## 0. How to use this repo
-You're starting at the right place! This file contains general resources and links to page-specific resources.
+You're starting at the right place! This file contains general resources and links to pages on specific topics.
 If you're looking for code examples, take a look at the [code examples](https://github.com/elaguerta/wwcsf-algos/blob/master/code-examples) folder.
 
 ## 1. How to contribute
@@ -29,7 +29,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
  ### 2d. Articles
  1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms) Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms. 
 
-## 3. Resources and problem sets by topic
+## 3. Resources and problem sets for common interview question categories
 1. Arrays & Strings
 2. Linked Lists
 3. Trees and Graphs
@@ -39,7 +39,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 7. Dynamic Programming
 8. Design
 
-## 4. Other topics
+## 4. Resources for other topics
 1. [Whiteboarding Tips](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/whiteboarding.md)
 2. [Big - O Complexity Analysis](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/bigO.md)
 3. Problem Sets for Beginners
