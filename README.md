@@ -24,12 +24,12 @@ These are a list of free online textbooks, video lectures, and visualizations. I
     * Recommended: [Lecture 3 - Algorithms](https://www.youtube.com/watch?v=fykrlqbV9wM&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s) and [Lecture 5 - Data Structures](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
     
  ### 2c. Free Courses
- 1. [Coursera, Data Strucutres by UCSD](https://www.coursera.org/learn/data-structures/home/welcome) 
+ 1. [Coursera, Data Structures by UCSD](https://www.coursera.org/learn/data-structures/home/welcome) 
  
  ### 2d. Articles
- 1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms) Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms. 
+ 1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms): Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms. 
 
-## 3. Resources and problem sets for common interview question categories
+## 3. Resources and problem sets, by category
 1. Arrays & Strings
 2. Linked Lists
 3. Trees and Graphs
