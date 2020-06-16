@@ -30,16 +30,16 @@ These are a list of free online textbooks, video lectures, and visualizations. I
  1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms): Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms. 
 
 ## 3. Resources and problem sets, by category
-1. [Arrays & Strings](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/arraysStrings.md)
-2. [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linkedLists.md)
-3. [Trees and Graphs](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/treesGraphs.md)
-4. [Sorting and Searching](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/sortingSearching.md)
+1. [Arrays & Strings](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/arrays-strings.md)
+2. [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linked-lists.md)
+3. [Trees and Graphs](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/trees-graphs.md)
+4. [Sorting and Searching](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/sorting-searching.md)
 5. [Recursion](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/recursion.md)
 6. [Backtracking](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/backtracking.md)
-7. [Dynamic Programming](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/dynamicProgramming.md)
+7. [Dynamic Programming](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/dynamic-programming.md)
 8. [Design](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/design.md)
 
 ## 4. Resources for other topics
 1. [Whiteboarding Tips](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/whiteboarding.md)
-2. [Big - O Complexity Analysis](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/bigO.md)
+2. [Big - O Complexity Analysis](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/big-O.md)
 3. [Problem Sets for Beginners](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/beginnerQs.md)
