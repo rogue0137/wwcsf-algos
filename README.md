@@ -1,5 +1,5 @@
 # wwcsf-algos
-Algorithms and whiteboarding interview prep for the WWCSF community
+Welcome to the Women Who Code SF Algorithms and Whiteboarding Interview Prep repo! As a chapter of [Women Who Code](https://www.womenwhocode.com), our mission is to inspire women to excel in technology careers. Our community is open to all who support our mission. Maintainers are dedicated to ensuring that this repo stays a safe and inclusive space. Please see the [Women Who Code Code of Conduct](https://www.womenwhocode.com/codeofconduct) for more information.
 
 ## 0. How to use this repo
 You're starting at the right place! This file contains general resources and links to pages on specific topics.
@@ -7,6 +7,8 @@ If you're looking for code examples, take a look at the [code examples](https://
 
 ## 1. How to contribute
 We are looking for your favorite resources and new problem sets, as well as code examples in any language. If you've never contributed to open-source before, let this be your first contribution! [Here's a step by step reference](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) to contributing. 
+
+---
 
 ## 2. General Study Resources
 These are a list of free online textbooks, video lectures, and visualizations. If you are looking for comprehensive, structured curriculums to guide your study, these are places to start.
@@ -27,7 +29,9 @@ These are a list of free online textbooks, video lectures, and visualizations. I
  1. [Coursera, Data Structures by UCSD](https://www.coursera.org/learn/data-structures/home/welcome) 
  
  ### 2d. Articles
- 1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms): Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms. 
+ 1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms): Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms.
+
+ ---
 
 ## 3. Resources and problem sets, by category
 1. [Arrays & Strings](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/arrays-strings.md)
@@ -38,6 +42,8 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 6. [Backtracking](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/backtracking.md)
 7. [Dynamic Programming](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/dynamic-programming.md)
 8. [Design](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/design.md)
+
+---
 
 ## 4. Resources for other topics
 1. [Whiteboarding Tips](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/whiteboarding.md)
