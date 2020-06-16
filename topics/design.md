@@ -13,3 +13,5 @@ ___
 ___
 
 ## Problem Sets
+Medium: https://leetcode.com/list/x417g0t1
+Easy: https://leetcode.com/list/x41iwx9j
