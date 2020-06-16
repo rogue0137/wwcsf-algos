@@ -12,7 +12,7 @@ We are looking for your favorite resources and new problem sets, as well as code
 These are a list of free online textbooks, video lectures, and visualizations. If you are looking for comprehensive, structured curriculums to guide your study, these are places to start.
 
 ### Free Online Textbooks
-1. [Grokking Algorithms, Aditya Y. Bhargava](https://livebook.manning.com/book/grokking-algorithms/about-this-book/): Not language-specific.
+1. [Grokking Algorithms, Aditya Y. Bhargava](https://livebook.manning.com/book/grokking-algorithms/about-this-book/): Curates a few important algorithms, in pseudocode. 
 2. [Python DS](https://runestone.academy/runestone/books/published/pythonds/index.html): Data Structures textbook in Python. 
 3. [Open Data Structures, Pat Morin](https://opendatastructures.org/ods-python/): Data structures textbook in pseudocode.
 4. [Think Data Structures, Allen B. Downey](http://greenteapress.com/thinkdast/thinkdast.pdf): Data structures textbook in Java.
