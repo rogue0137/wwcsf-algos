@@ -3,8 +3,8 @@
 In progress!
 
 ## Go to:
- * [Backtracking Resources](backtracking-resources)
- * [Problem Sets](problem-sets)
+ * [Resources](#resources)
+ * [Problem Sets](#problem-sets)
 
 ___
 
