@@ -7,6 +7,7 @@
 ___
 
 ## Resources 
+* [Recursion on Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion): A great resource for a refresher on recursion, suitable for members at all levels of coding.
 * [Chapter 3. Recursion](https://livebook.manning.com/book/grokking-algorithms/chapter-3/37) from _Grokking Algorithms_ by Aditya Y. Bhargava: Contains visual examples of recursion. Code examples in Python. 
 * Java: [Recursive methods](http://greenteapress.com/thinkjava6/html/thinkjava6006.html#sec64) from _Think Data Structures_ by Allen B. Downey
 * Python: [Conditionals and Recursion](https://greenteapress.com/thinkpython/html/thinkpython006.html#toc59) from _Think Python_ by Allen B. Downey
