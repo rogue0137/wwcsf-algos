@@ -32,6 +32,11 @@ These are a list of free online textbooks, video lectures, and visualizations. I
  ### 2d. Articles
  1. [Wikiversity Data Structures and Algorithms](https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms): Provides an overview of the Data Structure and Algorithms conceptual landscape. Recommended for its definitions of technical terms.
 
+ ### 2e. Problem Sets
+ 1. [A table of leetcode problems that you can filter by pattern, by Sean Prashad](https://seanprashad.com/leetcode-patterns/)
+2. [List of Top 20 DP Interview Questions on Geeks for Geeks](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
+
+
  ---
 
 ## 3. Resources and problem sets, by category
