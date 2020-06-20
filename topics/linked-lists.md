@@ -38,12 +38,12 @@ ___
 ### Easy problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Reverse Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | [leetcode's endorsed solution](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
-[Linked List Cycle](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/) | [leetcode's endorsed solution](https://leetcode.com/articles/linked-list-cycle/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
-[Delete Node in Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) | [leetcode's endorsed solution](https://leetcode.com/articles/delete-node-linked-list/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
+[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [leetcode's endorsed solution](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
+[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [leetcode's endorsed solution](https://leetcode.com/articles/linked-list-cycle/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
+[Delete Node in Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [leetcode's endorsed solution](https://leetcode.com/articles/delete-node-linked-list/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
 
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Add Two Numbers](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/783/) | [leetcode's endorsed solution](https://leetcode.com/articles/add-two-numbers/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
-[Intersection of Two Linked Lists](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/785/) | [leetcode's endorsed solution](https://leetcode.com/articles/intersection-of-two-linked-lists/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
+[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
+[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [leetcode's endorsed solution](https://leetcode.com/articles/intersection-of-two-linked-lists/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/LinkedLists)
