@@ -25,7 +25,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 1. [Harvard CS50 Lectures](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW).
     * Recommended: [Lecture 3 - Algorithms](https://www.youtube.com/watch?v=fykrlqbV9wM&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s) and [Lecture 5 - Data Structures](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
     
-2. [Strong programming foundations from mycodeshool, YouTube Channel](https://www.youtube.com/channel/UClEEsT7DkdVO_fkrBw0OTrA).
+2. [Strong programming foundations from mycodeschool, YouTube Channel](https://www.youtube.com/channel/UClEEsT7DkdVO_fkrBw0OTrA).
     * Recommended: [Recursion playlist](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO)
  ### 2c. Free Courses
  1. [Coursera, Data Structures by UCSD](https://www.coursera.org/learn/data-structures/home/welcome)
@@ -57,4 +57,3 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 1. [Whiteboarding Tips](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/whiteboarding.md)
 2. [Big - O Complexity Analysis](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/big-O.md)
 3. [Problem Sets for Beginners](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/beginnerQs.md)
-4. [Visual Algo, animations that explain data structures and algorithms](https://visualgo.net/en)
