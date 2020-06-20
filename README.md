@@ -25,6 +25,9 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 1. [Harvard CS50 Lectures](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW).
     * Recommended: [Lecture 3 - Algorithms](https://www.youtube.com/watch?v=fykrlqbV9wM&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s) and [Lecture 5 - Data Structures](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
     
+2. [Strong programming foundations from mycodeschool, YouTube Channel](https://www.youtube.com/channel/UClEEsT7DkdVO_fkrBw0OTrA).
+
+
  ### 2c. Free Courses
  1. [Coursera, Data Structures by UCSD](https://www.coursera.org/learn/data-structures/home/welcome)
  2. [VisuAlgo](https://visualgo.net/en): The tag line for this resource is "visualizing data structures and algorithms through animation". This is an incredible resource for any level of coder. Animations step through processes, and the explanations link to related topics, helping you synthesize your knowledge and build on previous undertstanding. The text is small and dense but it is well worth reading. Make sure to create an account to tailer your preferences and create a training plan.
