@@ -21,21 +21,21 @@ ___
 ## Problem Sets
 
 ### Easy problems
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | [solution](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
-[Find maxmum possible stolen value from houses (a.k.a. "House Robber")](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/) | [solution](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+Problem Statement | Leetcode | Solution | WWC example
+--- | --- | --- | ---
+[Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [solution](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+[Find maxmum possible stolen value from houses (a.k.a. "House Robber")](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/) | [House Robber](https://leetcode.com/problems/house-robber/) | [solution](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
 
 ### Medium problems
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Unique paths in a grid with obstacles](https://www.geeksforgeeks.org/unique-paths-in-a-grid-with-obstacles/) | [solution](https://www.geeksforgeeks.org/unique-paths-in-a-grid-with-obstacles/#highlighter_437436) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
-[Coin Change](https://leetcode.com/explore/interview/card/top-interview-questions-medium/111/dynamic-programming/809/) | [solution](https://leetcode.com/articles/coin-change/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
-[Longest Increasing Subsequence](https://leetcode.com/explore/interview/card/top-interview-questions-medium/111/dynamic-programming/810/) | [solution](https://leetcode.com/articles/longest-increasing-subsequence/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+Problem Statement | Leetcode | Solution | WWC example
+--- | --- | --- | ---
+[Unique paths in a grid with obstacles](https://www.geeksforgeeks.org/unique-paths-in-a-grid-with-obstacles/) | [Unique Paths](https://leetcode.com/problems/unique-paths-ii/) | [solution](https://www.geeksforgeeks.org/unique-paths-in-a-grid-with-obstacles/#highlighter_437436) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+[Coin Change](https://leetcode.com/explore/interview/card/top-interview-questions-medium/111/dynamic-programming/809/) | [Coin Change](https://leetcode.com/problems/coin-change/) | [solution](https://leetcode.com/articles/coin-change/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+[Longest Increasing Subsequence](https://leetcode.com/explore/interview/card/top-interview-questions-medium/111/dynamic-programming/810/) | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [solution](https://leetcode.com/articles/longest-increasing-subsequence/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
 
 ### Hard problems
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/862/) | [solution discussion on leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/862/discuss) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
-[Word Break](https://www.geeksforgeeks.org/word-break-problem-dp-32/) | [solution](https://www.geeksforgeeks.org/word-break-problem-dp-32/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
-[Burst Balloons](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/866/) | [solution discussion on leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/866/discuss) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+Problem Statement | Leetcode | Solution | WWC example
+--- | --- | --- | ---
+[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/862/) or [Apple Stocks](https://www.interviewcake.com/question/python3/stock-price) | [Best Time to Buy and Sell](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [solution discussion on leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/862/discuss) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+[Word Break](https://www.geeksforgeeks.org/word-break-problem-dp-32/) | [Word Break](https://leetcode.com/problems/word-break-ii/) | [solution](https://www.geeksforgeeks.org/word-break-problem-dp-32/#tablist1-panel1) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
+[Burst Balloons](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/866/) | [Burst Baloons](https://leetcode.com/problems/burst-balloons/) | [solution discussion on leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-hard/121/dynamic-programming/866/discuss) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/dynamic-programming)
