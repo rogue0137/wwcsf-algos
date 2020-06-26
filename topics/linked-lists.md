@@ -45,5 +45,5 @@ Problem Statement | Solution | WWC example
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [leetcode's endorsed solution](https://leetcode.com/problems/add-two-numbers/solution/) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/linked-lists)
 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [leetcode's endorsed solution](https://leetcode.com/articles/intersection-of-two-linked-lists/#) | please contribute your solution to our [code examples!](https://github.com/elaguerta/wwcsf-algos/tree/master/code-examples/linked-lists)
