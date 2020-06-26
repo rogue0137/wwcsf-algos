@@ -1,6 +1,6 @@
 # Trees and Graphs
 
-This is a more advanced topic that builds especially on [Linked Lists](https://github.com/elaguerta/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. 
+This is a more advanced topic that builds especially on [Linked Lists](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. 
 
 ## Go to:
  * [Resources](#resources)
