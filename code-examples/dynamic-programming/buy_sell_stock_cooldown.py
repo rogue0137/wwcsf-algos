@@ -43,9 +43,7 @@ def max_profit_1d(prices):
     sell = 0  # Replaces sell[i - 1]
     prev_sell = 0  # Replaces sell[i - 2]
     for i, price in enumerate(prices):
-        prev_buy = buy
-        buy = max(prev_sell - price, buy)
-        sell, prev_sell = max(prev_buy + price, sell), sell
+        buy, sell, prev_sell = max(prev_sell - price, buy), max(buy + price, sell), sell
     return sell
 
 
