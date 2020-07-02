@@ -37,7 +37,8 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 
  ### 2e. Problem Sets
  1. [A table of leetcode problems that you can filter by pattern, by Sean Prashad](https://seanprashad.com/leetcode-patterns/)
-2. [List of Top 20 DP Interview Questions on Geeks for Geeks](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
+ 2. [Curated list of top 75 leetcode questions organized by topic](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+3. [List of Top 20 DP Interview Questions on Geeks for Geeks](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
 
 
  ---
