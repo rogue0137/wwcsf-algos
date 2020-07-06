@@ -15,6 +15,7 @@ ___
 * [List of Top 20 DP Interview Questions on Geeks for Geeks](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/): Mixed difficulty.
 * [VisuoAlgo Recursion Tree](https://visualgo.net/en/recursion?slide=1): Visualizes the recrusive calls in tree form and in graph form for common recursive and dynamic programming procedures. Be sure to run the "Recursion DAG (DP)" visualization.
 * [Article on DP at Simple Programmer](https://simpleprogrammer.com/guide-dynamic-programming/): A contributor calls this "This best writeup for DP I have found." Recommended for intermediate and advanced coders.
+* [Chapter on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf): From *Algorithms* by Jeff Erickson
 * [Wikipedia article on Kadane's algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm): A classic DP algorithm. Code examples in Python.
 
 ___
