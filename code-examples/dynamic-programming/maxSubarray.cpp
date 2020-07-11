@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/maximum-subarray/
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -6,6 +8,6 @@ public:
              curSum= max(nums[i], curSum+nums[i]); 
              maxSum = max(maxSum, curSum); 
         }
-        return max_so_far; 
+        return maxSum; 
     }
 };
