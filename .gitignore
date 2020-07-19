@@ -1,0 +1,8 @@
+**/bin
+**/obj
+**/Debug
+**/debug
+.DS_Store
+.DS_Store
+/**/.DS_Store
+**/.vscode
