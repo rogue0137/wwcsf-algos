@@ -17,6 +17,25 @@ ___
 ___
 
 ## Problem Sets
-These are selected problems from [leetcode](https://leetcode.com). You may want to create a free account on leetcode to save your solutions and track your progress. 
- * [Recursion, mixed difficulty](https://leetcode.com/tag/recursion/)
+### Easy
+| Link to Description | Solution | WWC Code Sample |
+| :--- | :--- | :--- |
+| [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [Solution](https://leetcode.com/problems/range-sum-of-bst/solution/) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number) | [Solution](https://leetcode.com/problems/n-th-tribonacci-number/solution) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | [Solution](https://leetcode.com/problems/minimum-distance-between-bst-nodes/solution) |  please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) | [Solution](https://leetcode.com/problems/longest-univalue-path/solution) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+
+### Medium
+| Link to Description | Solution | WWC Code Sample |
+| :--- | :--- | :--- |
+| [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | [Solution](https://leetcode.com/problems/all-possible-full-binary-trees/solution) |  please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | [Solution](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/solution) |  please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | [Solution](https://leetcode.com/problems/k-th-symbol-in-grammar/solution) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state) | [Solution](https://leetcode.com/problems/valid-tic-tac-toe-state/solution) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+
+### Hard
+| Link to Description | Solution | WWC Code Sample |
+| :--- | :--- | :--- |
+| [Special Binary String](https://leetcode.com/problems/special-binary-string) | [Solution](https://leetcode.com/problems/special-binary-string/solution) | please contribute your solution to our [code examples!](../code-examples/recursion) |
+| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) | [Solution](https://leetcode.com/problems/number-of-atoms/solution) |  please contribute your solution to our [code examples!](../code-examples/recursion) |
 
