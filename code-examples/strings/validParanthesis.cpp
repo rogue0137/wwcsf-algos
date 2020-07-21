@@ -18,6 +18,8 @@ public:
             if(s[i]=='(' || s[i]=='[' || s[i]=='{')
                 st.push(s[i]);
             else{
+                if(st.empty())
+                    return false;
                 switch(s[i]){
                     case ')': if(st.top()!='(')
                                    return false;
@@ -35,9 +37,6 @@ public:
             }
             i++;
         }
-        if(st.empty())
-            return true;
-        else
-            return false;
+        return st.empty();
     }
 };
