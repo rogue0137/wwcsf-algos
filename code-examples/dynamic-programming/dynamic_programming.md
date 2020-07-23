@@ -1,15 +1,29 @@
 
 # Dynamic Programming
 
-1. [Section 1](#section-1)
-2. [Section 2](#section-2)
-    - [Subsection a](#subsection-a)
-    - [Subsection b](#subsection-b)
+1. [Dynamic Programming in Python](#dynamic-programming-in-python)
+2. [Basic Dynamic Programming Patterns](#basic-dyamic-programming-patterns)
+    - [Caching Your Value](#caching-your-value)
+    - [Figure Out The Equation](#figure-out-the-equation)
+3. [Type One Examples](#type-one-examples)
+    - [General Pattern](#general-pattern)
+4. [Type Two Examples](#type-two-examples)
+5. [Type Three Examples](#type-three-examples)
+    - [Pathways Pattern](#pathways-pattern)
+
+
+## Dynamic Programming in Python
+While many languages use recursion as the basis of dynamic programming, unfortunately, python cannot because of it's implementation. All of my examples below are in Python. They do not use recursion.
+
+- [Python Recursive Reading](https://realpython.com/python-thinking-recursively)
+- [Example of Recursive and Non-Recursive Python DP Solutions (and why one can't work)](https://github.com/rogue0137/practice/blob/master/leetcode_python/easy/SOLVED-maximum-subarray.py)
+
 
 
 ## Basic Dynamic Programming Patterns
 
 Below you will find patterns to follow for different kinds of dynamic programming problems. Below the patterns, you will find specific Leetcode problems that utilize the patterns.  
+
 
 ### Caching Your Value
 If you don't use recursion, you will have to `cache` your values. Sometimes this is referred to as `memoization`. For a great read on the basics of caching/memoization, I recommend [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a). Leo Wu defines `caching` as:
@@ -19,13 +33,13 @@ If you don't use recursion, you will have to `cache` your values. Sometimes this
 I like his definition. Let's use it. 
 
 In DP, there are three types of patterns you can use to `cache` your value(s):
-1. update a specific value again and again, this will have your answer
-2. create an array, update the array, and use the last value as the answer
-3. create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
+- TYPE ONE: update a specific value again and again, this will have your answer
+- TYPE TWO: create an array, update the array, and use the last value as the answer
+- TYPE THREE: create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
 
 I recommend making sure you can do type 1 problems before you try 2. Understand 2 before you move on to 3. 
 
-### Figure out the equation
+### Figure Out The Equation
 
 This is the hardest part. There will be some kind of math involved. Often times max/min is involved. 
 
@@ -36,9 +50,15 @@ This is the hardest part. There will be some kind of math involved. Often times 
 - Think about how recursion would solve this. 
 - Try out a ton of different DP problems.
 
+## TYPE ONE EXAMPLES
+
+> update a specific value again and again, this will have your answer
+
 ### General Pattern
 
 This pattern is meant to give you a way to think about dynamic programming problems. It is not the most time, nor most memory efficient. However, the goal here is to teach you tools that you can then iterate on. The examples also include iterations through the loops so you can see output. They are in the form of `output --> previous_output`. For instance, in `3 --> 2`, `2` was the first value it had, `3` was the second value it held.
+
+**NOTE:** I have noticed most DP problems start with an array, thus I include it as step 1. In Python, arrays are known as `lists`. However, I will use the term `array` below so that it is accessible to all regardless of language.
 
 ```
     # 1. access the length of the array
@@ -54,13 +74,9 @@ This pattern is meant to give you a way to think about dynamic programming probl
         # MAX 2
 ```
 
-## TYPE ONE EXAMPLES
-
-> 1. update a specific value again and again, this will have your answer
-
 #### MaxSubArray
 
-[Leetcode Link](https://leetcode.com/problems/maximum-subarray/)
+[MaxSubArray Problem](https://leetcode.com/problems/maximum-subarray/)
 
 _max_sum_ as cached value.
 
@@ -108,7 +124,7 @@ class Solution:
 
 #### House Robber
 
-[Leetcode Link](https://leetcode.com/problems/house-robber/)
+[House Robber Problem](https://leetcode.com/problems/house-robber/)
 
 _max_val_two_houses_ago_ and _max_val_one_house_ago_ as cached values.
 
@@ -150,18 +166,63 @@ class Solution:
 
 ## TYPE TWO EXAMPLES
 
-> 2.create an array, update the array, and use the last value as the answer
+> create an array, update the array, and use the last value as the answer
 
-### TBD
+For all TYPE TWO problems, I usually call the array `cache`.
+
+### Pattern
+
+TBD
+
+#### Decode Ways
+
+[Decode Ways Problem](https://leetcode.com/problems/decode-ways/)
+
+```python
+class Solution:
+    def numDecodings(self, s: str) -> int:
+        # 0. If there is any way for your string to be blank, hedge your bets
+        if not s:
+            return 0
+        # 1. Access the length of the array
+        len_s = len_s
+
+        # 2. DP cache created here
+        #    We are hosting values and updating updating them
+        cache = [0 for _ in range(len_s + 1)]
+
+        # 3. Set the first two values in the cache
+        cache[0] = 1
+        # Ways to decode a string of size 1 is 1. Unless the string is '0'.
+        # '0' doesn't have a single digit decode.
+        cache[1] = 0 if s[0] == '0' else 1
+
+        # 4. Loop
+        for i in range(2, len(cache)):
+            # -- DP below: we are repeating a mathematical equation
+            #    to find out answer
+            # Check if successful single digit decode is possible.
+            if s[i-1] != '0':
+                cache[i] += cache[i-1]
+
+            # Check if successful two digit decode is possible.
+            two_digit = int(s[i-2 : i])
+            if two_digit >= 10 and two_digit <= 26:
+                cache[i] += cache[i-2]
+        # 5. return the last value of the cache as the answer
+        return cache[len_s]
+```
 
 ## TYPE THREE EXAMPLES
 
-> 3. create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
+> create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
+
+For all TYPE THREE problems, I usually call the matrix a `grid`.
 
 
 ### Pathways Pattern
 
-This pattern is meant to give you a way to think about dynamic programming matrix problems. It is not the most time, nor memory efficient. However, the goal here is to teach you tools that you can then iterate on.
+This pattern is meant to give you a way to think about dynamic programming matrix problems. It is not the most time, nor memory efficient. However, the goal here is to teach you tools that you can then iterate on. It builds onto the General Pattern.
 
 ```python
 # cols = how many columns
@@ -195,7 +256,7 @@ return grid[rows-1][cols-1]
 
 #### Unique Paths I
 
-[Leetcode Link](https://leetcode.com/problems/unique-paths/)
+[Unique Paths I Problem](https://leetcode.com/problems/unique-paths/)
 
 ```python
 class Solution:
@@ -232,7 +293,7 @@ class Solution:
 
 #### Unique Paths II
 
-[Leetcode Link](https://leetcode.com/problems/unique-paths-ii/)
+[Unique Paths II Problem](https://leetcode.com/problems/unique-paths-ii/)
 
 
 ```python
@@ -284,19 +345,14 @@ class Solution:
 
 #### Edit-Distance
 
-[Leetcode Link](https://leetcode.com/problems/edit-distance/)
+[Edit-Distance Problem](https://leetcode.com/problems/edit-distance/)
 
 **Helpful Image for Understanding the Algorithm**
 ![Helpful Image](edit-distance.jpg)
 
 ```python
 class Solution:
-    def minDistance(self, word1, word2):
-        """
-        :type word1: str
-        :type word2: str
-        :rtype: int
-        """
+     def minDistance(self, word1: str, word2: str) -> int:
         # get len
         cols = len(word1)
         m = len(word2)
@@ -333,9 +389,3 @@ class Solution:
         return d[n][m]
 ```
 
-## Dynamic Programming in Python
-While many languages use recursion as the basis of dynamic programming, unfortunately, python cannot because of it's implementation. 
-
-[Example of Recursive and Non-Recursive Python DP Solutions (and why one can't work)](https://github.com/rogue0137/practice/blob/master/leetcode_python/easy/SOLVED-maximum-subarray.py)
-
-[Python Recursive Reading](https://realpython.com/python-thinking-recursively)
