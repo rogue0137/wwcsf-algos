@@ -1,24 +1,44 @@
+
 # Dynamic Programming
 
-# Basic Dynamic Programming Patterns
+1. [Section 1](#section-1)
+2. [Section 2](#section-2)
+    - [Subsection a](#subsection-a)
+    - [Subsection b](#subsection-b)
 
-## Caching Your Value
-If you don't use recursion, you will have to "cache" your values. 
 
-There are three primary ways to "cache" your value:
+## Basic Dynamic Programming Patterns
+
+Below you will find patterns to follow for different kinds of dynamic programming problems. Below the patterns, you will find specific Leetcode problems that utilize the patterns.  
+
+### Caching Your Value
+If you don't use recursion, you will have to `cache` your values. Sometimes this is referred to as `memoization`. For a great read on the basics of caching/memoization, I recommend [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a). Leo Wu defines `caching` as:
+
+> Avoid doing the same work repeatedly to avoid spending unnecessary running time or resources!
+
+I like his definition. Let's use it. 
+
+In DP, there are three types of patterns you can use to `cache` your value(s):
 1. update a specific value again and again, this will have your answer
 2. create an array, update the array, and use the last value as the answer
 3. create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
 
-## Figure out the equation
+I recommend making sure you can do type 1 problems before you try 2. Understand 2 before you move on to 3. 
 
-# Basic Patterns Found in Leetcode
+### Figure out the equation
 
-Below you will find patterns to follow for different kinds of dynamic programming problems. Below the patterns, you will find specific Leetcode problems that utilize the patterns.  
+This is the hardest part. There will be some kind of math involved. Often times max/min is involved. 
 
-## EASY Pattern
+**How do you work on this skill?**
 
-This pattern is meant to give you a way to think about easy dynamic programming problems. It is not the most time, nor memory efficient. However, the goal here is to teach you tools that you can then iterate on. The examples also include iterations through the loops so you can see output. They are in the form of `output --> previous_output`. For instance, in `3 --> 2`, `2` was the first value it had, `3` was the second value it had.
+- Think deeply about the problem. 
+- Use a piece of paper to draw things out. 
+- Think about how recursion would solve this. 
+- Try out a ton of different DP problems.
+
+### General Pattern
+
+This pattern is meant to give you a way to think about dynamic programming problems. It is not the most time, nor most memory efficient. However, the goal here is to teach you tools that you can then iterate on. The examples also include iterations through the loops so you can see output. They are in the form of `output --> previous_output`. For instance, in `3 --> 2`, `2` was the first value it had, `3` was the second value it held.
 
 ```
     # 1. access the length of the array
@@ -34,14 +54,15 @@ This pattern is meant to give you a way to think about easy dynamic programming 
         # MAX 2
 ```
 
+## TYPE ONE EXAMPLES
 
+> 1. update a specific value again and again, this will have your answer
 
-## Easy Examples
-
-### Easy Example: MaxSubArray
+#### MaxSubArray
 
 [Leetcode Link](https://leetcode.com/problems/maximum-subarray/)
 
+_max_sum_ as cached value.
 
 ```python
 class Solution:
@@ -62,7 +83,7 @@ class Solution:
         # 3. intermediate value
         temp_sum = nums[0] # 1
         
-        # 4. loop, using range() here, but you have options
+        # 4. loop, using range() here, but you can iterate in different ways
         for i in range(1, arr_len):
             num = nums[i] # 3 --> 2
             # 5. within loop, max or min: MAX below 
@@ -85,9 +106,11 @@ class Solution:
 
 ```
 
-### Easy Example: House Robber
+#### House Robber
 
 [Leetcode Link](https://leetcode.com/problems/house-robber/)
+
+_max_val_two_houses_ago_ and _max_val_one_house_ago_ as cached values.
 
 ```python
 class Solution:
@@ -125,11 +148,20 @@ class Solution:
         return max(max_val_two_houses_ago, max_val_one_house_ago) # 4
 ```
 
-## MEDIUM Patterns
+## TYPE TWO EXAMPLES
+
+> 2.create an array, update the array, and use the last value as the answer
+
+### TBD
+
+## TYPE THREE EXAMPLES
+
+> 3. create a matrix (arrays within an array), populate the arrays, use the last square to return the answer
+
 
 ### Pathways Pattern
 
-This pattern is meant to give you a way to think about easy dynamic programming problems. It is not the most time, nor memory efficient. However, the goal here is to teach you tools that you can then iterate on.
+This pattern is meant to give you a way to think about dynamic programming matrix problems. It is not the most time, nor memory efficient. However, the goal here is to teach you tools that you can then iterate on.
 
 ```python
 # cols = how many columns
@@ -161,7 +193,7 @@ for i in range(1,rows):
 return grid[rows-1][cols-1]
 ```
 
-### Medium Pathways Example: Unique Paths I
+#### Unique Paths I
 
 [Leetcode Link](https://leetcode.com/problems/unique-paths/)
 
@@ -186,7 +218,7 @@ class Solution:
         for j in range(m):
             grid[0][j] = 1
 
-        # Starting from grid[1,1] use the numb above and left
+        # Starting from grid[1,1] use the num above and left
         # to fill the rest of the grid
         for i in range(1,n):
             for j in range(1,m):
@@ -198,11 +230,10 @@ class Solution:
         return grid[n-1][m-1]
 ```
 
-### Medium Pathways Example: Unique Paths II
+#### Unique Paths II
 
 [Leetcode Link](https://leetcode.com/problems/unique-paths-ii/)
 
-Note: For this implementation we'll be switching values...explain how we're using 1s and 0s here
 
 ```python
 class Solution:
@@ -242,7 +273,7 @@ class Solution:
                 # -- DP below: we are repeating a mathematical equation
                 #    to find out answer
                 if obstacleGrid[i][j] == 0:
-                    # if current previous left square and previous right square are 0, set current square to 1
+                    # if current previous left square and previous right square are 0, add square above and below it
                     obstacleGrid[i][j] = obstacleGrid[i-1][j] + obstacleGrid[i][j-1]
                 else:
                     obstacleGrid[i][j] = 0
@@ -251,6 +282,56 @@ class Solution:
         return obstacleGrid[cols-1][rows-1]
 ```
 
+#### Edit-Distance
+
+[Leetcode Link](https://leetcode.com/problems/edit-distance/)
+
+**Helpful Image for Understanding the Algorithm**
+![Helpful Image](edit-distance.jpg)
+
+```python
+class Solution:
+    def minDistance(self, word1, word2):
+        """
+        :type word1: str
+        :type word2: str
+        :rtype: int
+        """
+        # get len
+        cols = len(word1)
+        m = len(word2)
+        
+        # if one of the strings is empty
+        if n * m == 0:
+            return n + m
+        
+        # create grid
+        # how many columns = [0] * (m + 1)
+        # how many rows with the above columns = for _ in range(n + 1)
+        d = [ [0] * (m + 1) for _ in range(cols + 1)]
+        
+        # fill in first col (2nd number doesn't change; always 0)
+        for i in range(n + 1):
+            d[i][0] = i
+        
+        # fill in first row (1st number doesn't change, always 0)
+        for j in range(m + 1):
+            d[0][j] = j
+        
+
+        # DP compute 
+        # fill in the rest starting at (1, 1)
+        for i in range(1, n + 1):
+            for j in range(1, m + 1):
+                left = d[i - 1][j] + 1
+                above = d[i][j - 1] + 1
+                horizontal = d[i - 1][j - 1] 
+                if word1[i - 1] != word2[j - 1]:
+                    horizontal += 1
+                d[i][j] = min(left, above, horizontal)
+        
+        return d[n][m]
+```
 
 ## Dynamic Programming in Python
 While many languages use recursion as the basis of dynamic programming, unfortunately, python cannot because of it's implementation. 
