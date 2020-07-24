@@ -264,7 +264,7 @@ class Solution:
         # cols = how many columns
         # rows = how many rows
         # if it doesn't already exist, create a matrix/grid
-        # ex. grid = [[0]* cols] * rows
+        # ex. grid = [[0]* cols for _ in range(rows)]
         grid = [[0]* m for _ in range(n)]
 
         # fill in the values for the first point in the grid/matrix
