@@ -229,7 +229,7 @@ This pattern is meant to give you a way to think about dynamic programming matri
 # rows = how many rows
 
 # if it doesn't already exist, create a matrix/grid
-# ex. grid = [[0]* cols] * rows
+# ex. grid = [[0]* cols for _ in range(rows)]
 
 # fill in the values for the first point in the grid/matrix
 # ex. grid[0][0] = SOMETHING
@@ -265,7 +265,7 @@ class Solution:
         # rows = how many rows
         # if it doesn't already exist, create a matrix/grid
         # ex. grid = [[0]* cols] * rows
-        grid = [[0]*m] * n
+        grid = [[0]* m for _ in range(n)]
 
         # fill in the values for the first point in the grid/matrix
         # NOTE: this could be left out here, but is kept to shower how the pattern is used latter
